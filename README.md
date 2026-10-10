@@ -1,88 +1,156 @@
+<div align="center">
+
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Statistics](https://img.shields.io/badge/Statistics-Data%20Science-4B5563?style=flat-square)](#)
+[![Naive Bayes](https://img.shields.io/badge/Naive%20Bayes-Algorithm-6B7280?style=flat-square)](#)
+
 # Belajar Matematika untuk Data Science
+
+### Probability → Statistics → A/B Testing → Naive Bayes
 
 Submission akhir kelas **Belajar Matematika untuk Data Science**.
 
-Project ini berisi penyelesaian latihan probabilitas, statistika, algoritma **Naive Bayes**, serta studi kasus **A/B Testing** menggunakan Python. Submission juga mencakup **Knowledge Check** dalam format spreadsheet.
+<div align="center">
 
-## Materi
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Stable Diffusion](https://img.shields.io/badge/Stable%20Diffusion-1.5-8A2BE2?style=flat-square)](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org/)
 
-Beberapa topik yang menjadi dasar project:
+# Belajar Fundamental Generative AI
 
-- Data univariat dan multivariat
-- Dasar-dasar probabilitas
-- Distribusi statistik
-- Statistik inferensial
-- Uji hipotesis
-- A/B Testing dengan Python
-- Matematika pada algoritma AI
-- Algoritma Naive Bayes
+### Text-to-Image → Inpainting → Outpainting → Streamlit
+
+Proyek submission **Belajar Fundamental Generative AI** yang berfokus pada eksperimen dan implementasi generasi serta manipulasi gambar menggunakan **Stable Diffusion 1.5**, kemudian mengemasnya menjadi aplikasi interaktif berbasis **Streamlit**.
+
+</div>
+
+---
+
+## Tentang Proyek
+
+Proyek ini mengeksplorasi alur generasi gambar dari teks hingga manipulasi gambar.
+
+Eksperimen dilakukan melalui notebook pipeline, kemudian kemampuan generasi gambar dikemas ke dalam interface Streamlit agar dapat digunakan secara interaktif.
+
+Fokus utama proyek:
+
+- Text-to-image generation
+- Eksperimen parameter generasi
+- Image-to-image melalui inpainting
+- Outpainting dan perluasan kanvas
+- Pengembangan interface dengan Streamlit
+- Dokumentasi eksperimen melalui notebook
+
+---
 
 ## Struktur Project
 
 ```text
 .
-├── kriteria-2-knowledge-check-submissions.xlsx
-├── soal-1-distribusi-dan-algoritma-naive-bayes.ipynb
-├── soal-1-distribusi-dan-algoritma-naive-bayes.py
-├── soal-2-sistem-rekomendasi-ab.ipynb
-├── soal-2-sistem-rekomendasi-ab.py
-├── soal-3-software-dev-ab.ipynb
-└── soal-3-software-dev-ab.py
+├── Pipeline_submission_BFGAI_Muhammad_Himbar_Buana.ipynb
+├── Streamlit_submission_BFGAI_Muhammad_Himbar_Buana.ipynb
+├── requirements.txt
+└── video_demo_aplikasi_BFGAI.mp4
 ```
 
-## Submission
+### Notebook Pipeline
 
-Project ini mencakup tiga soal utama:
+`Pipeline_submission_BFGAI_Muhammad_Himbar_Buana.ipynb`
 
-### Soal 1 — Distribusi dan Naive Bayes
+Digunakan untuk eksperimen generasi dan manipulasi gambar, termasuk:
 
-Implementasi kasus probabilitas dan algoritma Naive Bayes.
+- Stable Diffusion text-to-image
+- Seed dan parameter generasi
+- Guidance scale
+- Inference steps
+- Perbandingan hasil eksperimen
+- Inpainting
+- Outpainting
 
-File:
+### Notebook Streamlit
 
-- `soal-1-distribusi-dan-algoritma-naive-bayes.ipynb`
-- `soal-1-distribusi-dan-algoritma-naive-bayes.py`
+`Streamlit_submission_BFGAI_Muhammad_Himbar_Buana.ipynb`
 
-### Soal 2 — Sistem Rekomendasi & A/B Testing
+Digunakan untuk mengembangkan interface aplikasi sehingga proses generasi gambar dapat digunakan secara interaktif.
 
-Studi kasus A/B Testing pada sistem rekomendasi.
+### Video Demo
 
-File:
+`video_demo_aplikasi_BFGAI.mp4`
 
-- `soal-2-sistem-rekomendasi-ab.ipynb`
-- `soal-2-sistem-rekomendasi-ab.py`
+Berisi rekaman demonstrasi aplikasi Streamlit sebagai bukti implementasi interface.
 
-### Soal 3 — Software Development & A/B Testing
+---
 
-Studi kasus A/B Testing pada skenario software development.
+## Teknologi
 
-File:
+| Teknologi | Penggunaan |
+|---|---|
+| Python | Bahasa pemrograman utama |
+| Stable Diffusion 1.5 | Generasi gambar |
+| Diffusers | Pipeline model difusi |
+| Jupyter Notebook | Eksperimen dan dokumentasi |
+| Streamlit | Interface aplikasi |
+| PyTorch | Framework komputasi model |
 
-- `soal-3-software-dev-ab.ipynb`
-- `soal-3-software-dev-ab.py`
+---
 
-### Knowledge Check
+## Alur
 
-Jawaban teori disimpan menggunakan template spreadsheet yang ditentukan.
+```text
+Prompt
+  ↓
+Stable Diffusion 1.5
+  ↓
+Text-to-Image
+  ↓
+Image Editing
+  ├── Inpainting
+  └── Outpainting
+  ↓
+Streamlit Interface
+```
 
-File:
+---
 
-- `kriteria-2-knowledge-check-submissions.xlsx`
+## Tujuan Pembelajaran
 
-## Level Submission
+Proyek ini dibuat sebagai bagian dari pembelajaran **Belajar Fundamental Generative AI**, dengan tujuan memahami bagaimana model generatif gambar dapat digunakan bukan hanya melalui layanan siap pakai, tetapi juga melalui pipeline yang dapat dikonfigurasi dan dikembangkan menjadi sebuah aplikasi.
 
-Project ini mencakup seluruh soal yang dibutuhkan untuk level **Advanced**:
+Submission mencakup dua bagian utama:
 
-- **Basic** — menyelesaikan Soal 1
-- **Skilled** — menyelesaikan Soal 1 + salah satu soal tambahan
-- **Advanced** — menyelesaikan Soal 1, Soal 2, dan Soal 3
+1. Eksperimen pada notebook pipeline.
+2. Implementasi interface aplikasi menggunakan Streamlit.
 
-Untuk Knowledge Check, setiap kategori membutuhkan minimal **80%** untuk memenuhi level yang dikerjakan.
+---
+
+## Requirements
+
+Dependensi proyek tersedia pada:
+
+```text
+requirements.txt
+```
+
+Untuk memasang dependensi:
+
+```bash
+pip install -r requirements.txt
+```
+
+> Model Stable Diffusion membutuhkan resource komputasi yang cukup besar. Penggunaan GPU sangat disarankan untuk proses inference.
+
+---
 
 ## Catatan
 
-Nama file `.ipynb` dan `.py` dipertahankan sesuai ketentuan submission karena sistem Dicoding melakukan pengujian berdasarkan nama file dan fungsi yang telah ditentukan.
+Proyek ini dibuat sebagai **submission pembelajaran**, sehingga notebook dan artefak yang tersedia merepresentasikan proses eksperimen serta implementasi aplikasi pada saat submission.
 
-Notebook juga perlu dijalankan terlebih dahulu agar output kode tersimpan sebelum digunakan sebagai submission.
+</div>
 
-> Project ini dibuat sebagai dokumentasi pembelajaran dan submission kelas **Belajar Matematika untuk Data Science**.
+---
+
+> Project ini dibuat sebagai **submission pembelajaran** untuk kelas **Belajar Matematika untuk Data Science**.
+
+</div>

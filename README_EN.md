@@ -1,15 +1,15 @@
 <div align="center">
 
-[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![Statistics](https://img.shields.io/badge/Statistics-Data%20Science-4B5563?style=flat-square)](#)
-[![Naive Bayes](https://img.shields.io/badge/Naive%20Bayes-Algorithm-6B7280?style=flat-square)](#)
-
 # Mathematics for Data Science
 
 ### Probability → Statistics → A/B Testing → Naive Bayes
 
 Final submission for the **Mathematics for Data Science** course.
+
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Statistics](https://img.shields.io/badge/Statistics-Data%20Science-4B5563?style=flat-square)](#)
+[![Naive Bayes](https://img.shields.io/badge/Naive%20Bayes-Algorithm-6B7280?style=flat-square)](#)
 
 </div>
 

@@ -11,146 +11,103 @@
 
 Final submission for the **Mathematics for Data Science** course.
 
-<div align="center">
-
-[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![Stable Diffusion](https://img.shields.io/badge/Stable%20Diffusion-1.5-8A2BE2?style=flat-square)](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5)
-[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org/)
-
-# Fundamental Generative AI
-
-### Text-to-Image → Inpainting → Outpainting → Streamlit
-
-A **Fundamental Generative AI** submission project focused on experimenting with and implementing image generation and manipulation using **Stable Diffusion 1.5**, then packaging the capabilities into an interactive **Streamlit** application.
-
 </div>
 
 ---
 
 ## About the Project
 
-This project explores the workflow from text-based image generation to image manipulation.
+This project is the final submission for the **Mathematics for Data Science** course.
 
-Experiments are performed through a pipeline notebook, while the generation capabilities are packaged into a Streamlit interface for interactive use.
+It covers probability, statistical distributions, inferential statistics, A/B testing, and the application of mathematical concepts to the **Naive Bayes** algorithm.
 
-Main areas of focus:
-
-- Text-to-image generation
-- Generation parameter experiments
-- Image-to-image through inpainting
-- Outpainting and canvas expansion
-- Streamlit interface development
-- Experiment documentation through notebooks
-
----
+The experiments and implementations are carried out using Jupyter notebooks and Python.
 
 ## Project Structure
 
 ```text
 .
-├── Pipeline_submission_BFGAI_Muhammad_Himbar_Buana.ipynb
-├── Streamlit_submission_BFGAI_Muhammad_Himbar_Buana.ipynb
-├── requirements.txt
-└── video_demo_aplikasi_BFGAI.mp4
+├── kriteria-2-knowledge-check-submissions.xlsx
+├── soal-1-distribusi-dan-algoritma-naive-bayes.ipynb
+├── soal-1-distribusi-dan-algoritma-naive-bayes.py
+├── soal-2-sistem-rekomendasi-ab.ipynb
+├── soal-2-sistem-rekomendasi-ab.py
+├── soal-3-software-dev-ab.ipynb
+└── soal-3-software-dev-ab.py
 ```
 
-### Pipeline Notebook
+## Topics and Implementation
 
-`Pipeline_submission_BFGAI_Muhammad_Himbar_Buana.ipynb`
+### Question 1 — Distributions and Naive Bayes
 
-Used for image generation and manipulation experiments, including:
+Implementation and analysis related to statistical distributions and the **Naive Bayes** algorithm.
 
-- Stable Diffusion text-to-image
-- Seed and generation parameters
-- Guidance scale
-- Inference steps
-- Experiment comparisons
-- Inpainting
-- Outpainting
+Files:
+- `soal-1-distribusi-dan-algoritma-naive-bayes.ipynb`
+- `soal-1-distribusi-dan-algoritma-naive-bayes.py`
 
-### Streamlit Notebook
+### Question 2 — A/B Recommendation System
 
-`Streamlit_submission_BFGAI_Muhammad_Himbar_Buana.ipynb`
+An **A/B testing** experiment comparing two groups and performing statistical analysis on the experiment results.
 
-Used to develop the application interface so image generation can be performed interactively.
+Files:
+- `soal-2-sistem-rekomendasi-ab.ipynb`
+- `soal-2-sistem-rekomendasi-ab.py`
 
-### Demo Video
+### Question 3 — Software Development A/B
 
-`video_demo_aplikasi_BFGAI.mp4`
+Application of **A/B testing** concepts to a software development case study.
 
-Contains a demonstration recording of the Streamlit application as evidence of the implemented interface.
+Files:
+- `soal-3-software-dev-ab.ipynb`
+- `soal-3-software-dev-ab.py`
 
----
+## Knowledge Check
+
+The Knowledge Check submission is stored in:
+
+```text
+kriteria-2-knowledge-check-submissions.xlsx
+```
+
+This spreadsheet contains the submission for the Knowledge Check criteria.
 
 ## Technologies
 
 | Technology | Usage |
 |---|---|
-| Python | Main programming language |
-| Stable Diffusion 1.5 | Image generation |
-| Diffusers | Diffusion model pipelines |
+| Python | Implementation and analysis |
 | Jupyter Notebook | Experimentation and documentation |
-| Streamlit | Application interface |
-| PyTorch | Model computation |
+| Mathematics & Statistics | Analytical foundation |
+| Naive Bayes | Classification algorithm |
+| A/B Testing | Hypothesis testing |
 
----
-
-## Workflow
+## Learning Flow
 
 ```text
-Prompt
-  ↓
-Stable Diffusion 1.5
-  ↓
-Text-to-Image
-  ↓
-Image Editing
-  ├── Inpainting
-  └── Outpainting
-  ↓
-Streamlit Interface
+Probability
+     ↓
+Statistics & Distributions
+     ↓
+Inferential Statistics
+     ↓
+A/B Testing
+     ↓
+Naive Bayes
+     ↓
+Implementation with Python
 ```
-
----
-
-## Learning Objective
-
-This project was created as part of the **Fundamental Generative AI** learning program, with the goal of understanding how generative image models can be used beyond ready-made services through configurable pipelines and application development.
-
-The submission consists of two main parts:
-
-1. Experiments in the pipeline notebook.
-2. Application interface implementation using Streamlit.
-
----
 
 ## Requirements
 
-Project dependencies are provided in:
+The project uses Python and Jupyter Notebook.
 
-```text
-requirements.txt
-```
-
-Install the dependencies with:
-
-```bash
-pip install -r requirements.txt
-```
-
-> Stable Diffusion requires significant computational resources. GPU usage is strongly recommended for inference.
-
----
+Dependencies follow the environment and libraries specified in the notebooks and Python files.
 
 ## Note
 
-This project was created as a **learning submission**, so the notebooks and included artifacts represent the experimentation and application implementation available at the time of submission.
-
-</div>
+This project was created as a **learning submission**. The notebooks and Python files represent the implementations and experiments completed for the course requirements.
 
 ---
 
 > This project was created as a **learning submission** for the **Mathematics for Data Science** course.
-
-</div>

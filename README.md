@@ -11,146 +11,103 @@
 
 Submission akhir kelas **Belajar Matematika untuk Data Science**.
 
-<div align="center">
-
-[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![Stable Diffusion](https://img.shields.io/badge/Stable%20Diffusion-1.5-8A2BE2?style=flat-square)](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5)
-[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org/)
-
-# Belajar Fundamental Generative AI
-
-### Text-to-Image → Inpainting → Outpainting → Streamlit
-
-Proyek submission **Belajar Fundamental Generative AI** yang berfokus pada eksperimen dan implementasi generasi serta manipulasi gambar menggunakan **Stable Diffusion 1.5**, kemudian mengemasnya menjadi aplikasi interaktif berbasis **Streamlit**.
-
 </div>
 
 ---
 
 ## Tentang Proyek
 
-Proyek ini mengeksplorasi alur generasi gambar dari teks hingga manipulasi gambar.
+Proyek ini merupakan submission akhir untuk kelas **Belajar Matematika untuk Data Science**.
 
-Eksperimen dilakukan melalui notebook pipeline, kemudian kemampuan generasi gambar dikemas ke dalam interface Streamlit agar dapat digunakan secara interaktif.
+Materi dan implementasi di dalamnya mencakup probabilitas, distribusi statistik, statistik inferensial, A/B testing, serta penerapan konsep matematika pada algoritma **Naive Bayes**.
 
-Fokus utama proyek:
-
-- Text-to-image generation
-- Eksperimen parameter generasi
-- Image-to-image melalui inpainting
-- Outpainting dan perluasan kanvas
-- Pengembangan interface dengan Streamlit
-- Dokumentasi eksperimen melalui notebook
-
----
+Eksperimen dan implementasi dikerjakan menggunakan notebook Jupyter dan Python.
 
 ## Struktur Project
 
 ```text
 .
-├── Pipeline_submission_BFGAI_Muhammad_Himbar_Buana.ipynb
-├── Streamlit_submission_BFGAI_Muhammad_Himbar_Buana.ipynb
-├── requirements.txt
-└── video_demo_aplikasi_BFGAI.mp4
+├── kriteria-2-knowledge-check-submissions.xlsx
+├── soal-1-distribusi-dan-algoritma-naive-bayes.ipynb
+├── soal-1-distribusi-dan-algoritma-naive-bayes.py
+├── soal-2-sistem-rekomendasi-ab.ipynb
+├── soal-2-sistem-rekomendasi-ab.py
+├── soal-3-software-dev-ab.ipynb
+└── soal-3-software-dev-ab.py
 ```
 
-### Notebook Pipeline
+## Materi dan Implementasi
 
-`Pipeline_submission_BFGAI_Muhammad_Himbar_Buana.ipynb`
+### Soal 1 — Distribusi dan Algoritma Naive Bayes
 
-Digunakan untuk eksperimen generasi dan manipulasi gambar, termasuk:
+Implementasi dan analisis yang berkaitan dengan distribusi statistik serta algoritma **Naive Bayes**.
 
-- Stable Diffusion text-to-image
-- Seed dan parameter generasi
-- Guidance scale
-- Inference steps
-- Perbandingan hasil eksperimen
-- Inpainting
-- Outpainting
+File:
+- `soal-1-distribusi-dan-algoritma-naive-bayes.ipynb`
+- `soal-1-distribusi-dan-algoritma-naive-bayes.py`
 
-### Notebook Streamlit
+### Soal 2 — Sistem Rekomendasi A/B
 
-`Streamlit_submission_BFGAI_Muhammad_Himbar_Buana.ipynb`
+Eksperimen **A/B testing** untuk membandingkan dua kelompok dan melakukan analisis statistik terhadap hasil eksperimen.
 
-Digunakan untuk mengembangkan interface aplikasi sehingga proses generasi gambar dapat digunakan secara interaktif.
+File:
+- `soal-2-sistem-rekomendasi-ab.ipynb`
+- `soal-2-sistem-rekomendasi-ab.py`
 
-### Video Demo
+### Soal 3 — Software Development A/B
 
-`video_demo_aplikasi_BFGAI.mp4`
+Penerapan konsep **A/B testing** pada studi kasus software development.
 
-Berisi rekaman demonstrasi aplikasi Streamlit sebagai bukti implementasi interface.
+File:
+- `soal-3-software-dev-ab.ipynb`
+- `soal-3-software-dev-ab.py`
 
----
+## Knowledge Check
+
+Knowledge Check disimpan dalam:
+
+```text
+kriteria-2-knowledge-check-submissions.xlsx
+```
+
+File tersebut merupakan spreadsheet submission untuk kriteria Knowledge Check.
 
 ## Teknologi
 
 | Teknologi | Penggunaan |
 |---|---|
-| Python | Bahasa pemrograman utama |
-| Stable Diffusion 1.5 | Generasi gambar |
-| Diffusers | Pipeline model difusi |
+| Python | Implementasi dan analisis |
 | Jupyter Notebook | Eksperimen dan dokumentasi |
-| Streamlit | Interface aplikasi |
-| PyTorch | Framework komputasi model |
+| Matematika & Statistik | Dasar analisis |
+| Naive Bayes | Algoritma klasifikasi |
+| A/B Testing | Pengujian hipotesis |
 
----
-
-## Alur
+## Alur Pembelajaran
 
 ```text
-Prompt
-  ↓
-Stable Diffusion 1.5
-  ↓
-Text-to-Image
-  ↓
-Image Editing
-  ├── Inpainting
-  └── Outpainting
-  ↓
-Streamlit Interface
+Probability
+     ↓
+Statistics & Distributions
+     ↓
+Inferential Statistics
+     ↓
+A/B Testing
+     ↓
+Naive Bayes
+     ↓
+Implementation with Python
 ```
-
----
-
-## Tujuan Pembelajaran
-
-Proyek ini dibuat sebagai bagian dari pembelajaran **Belajar Fundamental Generative AI**, dengan tujuan memahami bagaimana model generatif gambar dapat digunakan bukan hanya melalui layanan siap pakai, tetapi juga melalui pipeline yang dapat dikonfigurasi dan dikembangkan menjadi sebuah aplikasi.
-
-Submission mencakup dua bagian utama:
-
-1. Eksperimen pada notebook pipeline.
-2. Implementasi interface aplikasi menggunakan Streamlit.
-
----
 
 ## Requirements
 
-Dependensi proyek tersedia pada:
+Project menggunakan Python dan Jupyter Notebook.
 
-```text
-requirements.txt
-```
-
-Untuk memasang dependensi:
-
-```bash
-pip install -r requirements.txt
-```
-
-> Model Stable Diffusion membutuhkan resource komputasi yang cukup besar. Penggunaan GPU sangat disarankan untuk proses inference.
-
----
+Dependensi yang digunakan mengikuti environment dan library yang tercantum pada notebook serta file Python masing-masing.
 
 ## Catatan
 
-Proyek ini dibuat sebagai **submission pembelajaran**, sehingga notebook dan artefak yang tersedia merepresentasikan proses eksperimen serta implementasi aplikasi pada saat submission.
-
-</div>
+Proyek ini dibuat sebagai **submission pembelajaran**. Notebook dan file Python yang tersedia merepresentasikan implementasi serta eksperimen yang dikerjakan untuk memenuhi kriteria kelas.
 
 ---
 
 > Project ini dibuat sebagai **submission pembelajaran** untuk kelas **Belajar Matematika untuk Data Science**.
-
-</div>
